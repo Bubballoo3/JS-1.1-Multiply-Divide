@@ -1,0 +1,34 @@
+* {
+    background-color: lightsteelblue;
+}
+
+input {
+    background-color: antiquewhite;
+    max-width: fit-content;
+}
+body {
+    margin-left: .5in;
+    margin-right: .5in;
+}
+
+[class^=col] {
+    text-align: right;
+}
+
+@media (max-width: 992px) {
+    .text-right.col* {
+        text-align: left;
+    }
+    .text-right.col* {
+        width:80%
+    }
+}
+
+.btn-dark {
+    margin-top: .5in;
+    margin-right: .3in;
+}
+.row.text-center {
+    margin-left: 30%;
+    margin-right: 30%;
+}
