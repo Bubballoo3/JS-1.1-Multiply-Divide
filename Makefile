@@ -6,9 +6,9 @@
 all: PutHTML
 
 PutHTML:
-	cp calc.html /var/www/html/calc/
-	cp calc.css /var/www/html/calc/
-	cp calc.js /var/www/html/calc/
+	cp multDiv.html /var/www/html/MultiplyDivide/
+	cp multDiv.css /var/www/html/MultiplyDivide/
+	cp multDiv.js /var/www/html/MultiplyDivide/
 
 	echo "Current contents of your HTML directory: "
-	ls -l /var/www/html/calc/
+	ls -l /var/www/html/MultiplyDivide/
